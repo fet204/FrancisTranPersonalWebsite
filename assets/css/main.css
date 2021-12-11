@@ -1768,7 +1768,7 @@ input, select, textarea {
 				-moz-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 				-webkit-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 				-ms-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
-				transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+				transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;				
 			}
 
 				#nav > ul > li.active {
@@ -2053,6 +2053,10 @@ input, select, textarea {
 			.carousel article p {
 				text-align: center;
 			}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+SIZES 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
 
 /* Wide */
 
