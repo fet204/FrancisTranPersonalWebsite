@@ -74,7 +74,7 @@ input, select, textarea {
 
 /* My stuff */
 .inlineLinkButton{
-	background-color: #3B353C;
+	background-color: #e1d9eb;
 	border-radius: 25px;
 	padding: 4px;
 }
@@ -1232,6 +1232,7 @@ input, select, textarea {
 			margin: 0 0 4em 0;
 		}
 
+
 		.image.left {
 			float: left;
 			margin: 0 2em 2em 0;
@@ -1486,7 +1487,7 @@ input, select, textarea {
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #df7366;
+		background: #7a49af;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -1508,7 +1509,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			color: #fff;
-			background: #ef8376;
+			background: #a264e4;
 		}
 
 		input[type="button"].alt,
@@ -1599,9 +1600,12 @@ input, select, textarea {
 		padding: 6em 0 6em 0;
 	}
 
+		
 		.wrapper.style2 {
-			padding-top: 0;
+			/*padding-top: 0;*/
+			margin: 2em 0;
 		}
+		
 
 /* Header */
 
@@ -1611,7 +1615,7 @@ input, select, textarea {
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
-		color: #fff;
+		color: rgb(226, 215, 215);
 		text-align: center;
 		padding: 7.5em 0 2em 0;
 		cursor: default;
@@ -1637,18 +1641,21 @@ input, select, textarea {
 		}
 
 			#header header > p {
-				font-size: 1.25em;
+				font-size: 20px;
 				margin: 0;
+				font-weight: bold;
 			}
 
 		#header h1 {
-			color: #fff;
+			color: #1C0920;
 			font-size: 3em;
 			line-height: 1em;
 		}
 
 			#header h1 a {
 				color: inherit;
+				font-size: 75px;
+				font-weight: bold;
 			}
 
 		#header .button {
@@ -1688,7 +1695,7 @@ input, select, textarea {
 
 		body.homepage #header:after {
 			content: '';
-			background: #1C0920;
+			background: #030103;
 			display: block;
 			position: absolute;
 			left: 0;
@@ -1722,7 +1729,7 @@ input, select, textarea {
 		z-index: 1;
 		overflow: hidden;
 		background-color: black;
-		opacity: 0.5;
+		opacity: 0.8;
 		position: fixed;
 		top: 0px;
 	}
