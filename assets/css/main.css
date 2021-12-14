@@ -239,6 +239,30 @@ input, select, textarea {
 		font-size: 0.8em;
 	}
 
+/* Skills table */
+.skills{
+	margin:0;
+	padding:0;
+	border:0;
+	border-collapse:separate;
+	border-spacing: 2px;
+}
+.skills {
+	border: 1px solid black;
+}
+.skills table {
+	border: 1px solid black;
+
+}
+	.skills tr th, .skills tr td{
+		margin:0;
+		padding:0;
+		border:0;
+		border-collapse:separate;
+		border-spacing: 2px;
+		text-align: center;
+	}
+
 /* Container */
 
 	.container {
