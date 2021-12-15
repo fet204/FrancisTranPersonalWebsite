@@ -241,12 +241,13 @@ input, select, textarea {
 
 /* Skills table */
 .skills{
-	margin:0;
+	margin:30px 0;
 	padding:0;
 	border:0;
 	border-collapse:separate;
 	border-spacing: 2px;
 }
+/*
 .skills {
 	border: 1px solid black;
 }
@@ -254,13 +255,34 @@ input, select, textarea {
 	border: 1px solid black;
 
 }
-	.skills tr th, .skills tr td{
+*/
+	.skills tr th {
 		margin:0;
 		padding:0;
-		border:0;
+		border:3px solid #555;
 		border-collapse:separate;
 		border-spacing: 2px;
 		text-align: center;
+	}
+	.skills tr td {
+		margin:0;
+		padding:0;
+		border:1px solid #3B353C;
+		border-collapse:separate;
+		border-spacing: 2px;
+		text-align: center;
+	}
+
+/* Specific */
+#main header h2 a {
+	margin: 50px 0 0;
+}
+
+#videos{
+	text-align: center;
+}
+	#videos iframe {
+		height: 300px;
 	}
 
 /* Container */
