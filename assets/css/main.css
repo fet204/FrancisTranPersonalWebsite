@@ -285,6 +285,7 @@ input, select, textarea {
 		height: 300px;
 	}
 
+
 /* Container */
 
 	.container {
@@ -776,6 +777,9 @@ input, select, textarea {
 							padding-top: 72px;
 						}
 
+		}
+		section header h3 {
+			text-align: center;
 		}
 
 		@media screen and (max-width: 960px) {
@@ -1903,7 +1907,7 @@ input, select, textarea {
 	}
 
 		#banner header > p {
-			margin-bottom: 0;
+			margin: 0px 2em;
 		}
 
 /* Content */
